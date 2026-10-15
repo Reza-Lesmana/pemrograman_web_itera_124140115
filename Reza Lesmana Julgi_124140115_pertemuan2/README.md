@@ -47,3 +47,8 @@ Aplikasi sederhana untuk mencatat tugas kuliah. Dibuat untuk tugas Praktikum Pen
 5. Refresh halaman untuk memastikan data tetap tersimpan.
 6. Coba filter dan pencarian.
 7. Periksa kutipan dan cuaca jika internet tersedia.
+
+## Screenshot Sistem
+![Screenshot Dashboard](screenshots/dashboard.png)
+![Screenshot Dashboard](screenshots/tugasditambahkan.png)
+![Screenshot Dashboard](tugasselesai.png)
