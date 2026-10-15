@@ -1,41 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Student Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Tugas Kuliah</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header>
+    <h1>Dashboard Tugas Kuliah</h1>
+    <p>Catat tugas supaya tidak lupa deadline</p>
+  </header>
 
-<div class="container">
+  <main>
+    <section class="summary">
+      <p>Total tugas: <strong id="totalTasks">0</strong></p>
+      <p>Belum selesai: <strong id="pendingTasks">0</strong></p>
+      <p>Selesai: <strong id="completedTasks">0</strong></p>
+    </section>
 
-<h1>Student Productivity Dashboard</h1>
+    <section class="panel">
+      <h2>Tambah / Edit Tugas</h2>
+      <form id="taskForm">
+        <input type="hidden" id="taskId">
+        <label for="taskTitle">Nama tugas</label>
+        <input id="taskTitle" type="text" placeholder="Contoh: Laporan praktikum" required>
 
-<p id="quote">
-Loading quote...
-</p>
+        <label for="taskCourse">Mata kuliah</label>
+        <input id="taskCourse" type="text" placeholder="Contoh: Pemrograman Web" required>
 
+        <label for="taskDeadline">Deadline</label>
+        <input id="taskDeadline" type="date" required>
 
-<h2>Tambah Tugas</h2>
+        <label for="taskPriority">Prioritas</label>
+        <select id="taskPriority">
+          <option value="Sedang">Sedang</option>
+          <option value="Tinggi">Tinggi</option>
+          <option value="Rendah">Rendah</option>
+        </select>
 
-<input id="taskName" placeholder="Nama tugas">
+        <div class="buttons">
+          <button type="submit" id="saveButton">Simpan Tugas</button>
+          <button type="button" id="cancelButton" class="secondary">Batal</button>
+        </div>
+      </form>
+    </section>
 
-<input id="taskDeadline" type="date">
+    <section class="panel">
+      <h2>Daftar Tugas</h2>
+      <div class="filters">
+        <button type="button" class="filter active" data-filter="Semua">Semua</button>
+        <button type="button" class="filter" data-filter="Belum">Belum selesai</button>
+        <button type="button" class="filter" data-filter="Selesai">Selesai</button>
+        <input id="searchInput" type="search" placeholder="Cari tugas...">
+      </div>
+      <div id="taskList"></div>
+      <p id="emptyMessage">Belum ada tugas. Silakan tambahkan tugas.</p>
+    </section>
 
-<button id="addBtn">
-Tambah
-</button>
+    <section class="panel">
+      <h2>Info Hari Ini</h2>
+      <p id="quoteText">Memuat kutipan...</p>
+      <button type="button" id="quoteButton" class="secondary">Kutipan baru</button>
+      <hr>
+      <h3>Cuaca ITERA</h3>
+      <p id="weatherText">Memuat informasi cuaca...</p>
+      <button type="button" id="weatherButton" class="secondary">Perbarui cuaca</button>
+    </section>
+  </main>
 
-
-<h2>Daftar Tugas</h2>
-
-<div id="taskList"></div>
-
-
-</div>
-
-
-<script src="script.js"></script>
-
+  <footer>
+    <p>Reza Lesmana Julgi 124140115 - Praktikum 2 PAW - JavaScript ES6+</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
