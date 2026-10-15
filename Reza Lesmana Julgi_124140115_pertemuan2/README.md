@@ -49,6 +49,6 @@ Aplikasi sederhana untuk mencatat tugas kuliah. Dibuat untuk tugas Praktikum Pen
 7. Periksa kutipan dan cuaca jika internet tersedia.
 
 ## Screenshot Sistem
-![Screenshot Dashboard](screenshots/dashboard.png)
-![Screenshot Dashboard](screenshots/tugasditambahkan.png)
-![Screenshot Dashboard](tugasselesai.png)
+![Screenshot Dashboard](screenshot/dashboard.png)
+![Screenshot Dashboard](screenshot/tugasditambahkan.png)
+![Screenshot Dashboard](screenshot/tugasselesai.png)
