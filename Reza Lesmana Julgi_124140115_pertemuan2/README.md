@@ -2,6 +2,12 @@
 
 Aplikasi sederhana untuk mencatat tugas kuliah. Dibuat untuk tugas Praktikum Pengembangan Aplikasi Web, materi JavaScript ES6+.
 
+## Identitas
+
+Nama: Reza Lesmana Julgi
+NIM: 124140115
+Kelas: Praktikum PAW RA
+
 ## Fitur
 - Menambah tugas, mengedit, dan menghapus tugas.
 - Menyimpan nama tugas, mata kuliah, deadline, dan prioritas.
