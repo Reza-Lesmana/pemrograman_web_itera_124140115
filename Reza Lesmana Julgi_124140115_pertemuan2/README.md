@@ -49,6 +49,12 @@ Aplikasi sederhana untuk mencatat tugas kuliah. Dibuat untuk tugas Praktikum Pen
 7. Periksa kutipan dan cuaca jika internet tersedia.
 
 ## Screenshot Sistem
+
 ![Screenshot Dashboard](screenshot/dashboard.png)
+Gambar 1. Tampilan utama aplikasi Dashboard Tugas Kuliah
+
 ![Screenshot Dashboard](screenshot/tugasditambahkan.png)
+Gambar 2. Tampilan utama sistem jika ada tugas yang ditambahkan
+
 ![Screenshot Dashboard](screenshot/tugasselesai.png)
+Gambar 3. Tampilan utama sistem jika ada tugas yang sudah dikerjakan
