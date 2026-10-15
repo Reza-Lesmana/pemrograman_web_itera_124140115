@@ -4,9 +4,9 @@ Aplikasi sederhana untuk mencatat tugas kuliah. Dibuat untuk tugas Praktikum Pen
 
 ## Identitas
 
-Nama: Reza Lesmana Julgi
-NIM: 124140115
-Kelas: Praktikum PAW RA
+- Nama: Reza Lesmana Julgi
+- NIM: 124140115
+- Kelas: Praktikum PAW RA
 
 ## Fitur
 - Menambah tugas, mengedit, dan menghapus tugas.
