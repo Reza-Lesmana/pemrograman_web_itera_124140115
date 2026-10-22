@@ -15,7 +15,7 @@ Aplikasi sederhana untuk mencatat tugas kuliah. Dibuat untuk tugas Praktikum Pen
 - Filter tugas dan pencarian.
 - Menampilkan jumlah total tugas, tugas selesai, dan tugas yang belum selesai.
 - Menyimpan data menggunakan localStorage.
-- Mengambil kutipan motivasi dan informasi cuaca menggunakan API publik.
+- Mengambil kutipan motivasi dan informasi cuaca menggunakan API publik
 
 ## Cara menjalankan
 1. Buka folder ini menggunakan Visual Studio Code.
