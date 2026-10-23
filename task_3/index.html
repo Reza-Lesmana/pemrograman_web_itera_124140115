@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran | Tugas Individu 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html"><span class="brand-mark">P</span> Pendaftar<span class="brand-dot">.</span></a>
+      <span class="header-label">Tugas Individu 3 · Pemrograman Web</span>
+    </div>
+  </header>
+
+  <main class="container main-layout">
+    <section class="intro-panel">
+      <p class="eyebrow">PENDAFTARAN ONLINE</p>
+      <h1>Mulai langkah<br><span>barumu di sini.</span></h1>
+      <p class="intro-text">Lengkapi formulir berikut dengan data yang benar. Pastikan seluruh informasi sudah sesuai sebelum menekan tombol kirim.</p>
+      <div class="step-note"><span class="step-number">01</span><div><strong>Isi formulir</strong><p>Masukkan informasi pendaftar.</p></div></div>
+      <div class="step-note"><span class="step-number">02</span><div><strong>Periksa data</strong><p>Pastikan tidak ada informasi yang terlewat.</p></div></div>
+      <div class="step-note"><span class="step-number">03</span><div><strong>Lanjut ke detail</strong><p>Form menggunakan metode GET.</p></div></div>
+    </section>
+
+    <section class="form-card">
+      <div class="card-heading">
+        <div><p class="eyebrow">FORMULIR</p><h2>Data Pendaftar</h2></div>
+        <span class="required-note">* Wajib diisi</span>
+      </div>
+      <form action="detail.html" method="GET">
+        <div class="form-grid">
+          <div class="form-group full-width">
+            <label for="nama">Nama lengkap <span>*</span></label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+          </div>
+          <div class="form-group">
+            <label for="nim">NIM <span>*</span></label>
+            <input type="text" id="nim" name="nim" placeholder="Contoh: 123456789" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email <span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+          </div>
+          <div class="form-group full-width">
+            <label for="prodi">Program studi <span>*</span></label>
+            <select id="prodi" name="prodi" required>
+              <option value="" disabled selected>Pilih program studi</option>
+              <option value="Teknik Informatika">Teknik Informatika</option>
+              <option value="Teknik Elektro">Teknik Elektro</option>
+              <option value="Teknik Sipil">Teknik Sipil</option>
+              <option value="Teknik Pertanian">Teknik Pertanian</option>
+              <option value="Lainnya">Lainnya</option>
+            </select>
+          </div>
+          <fieldset class="form-group full-width gender-field">
+            <legend>Jenis kelamin <span>*</span></legend>
+            <label class="radio-option"><input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</label>
+            <label class="radio-option"><input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
+          </fieldset>
+          <div class="form-group full-width">
+            <label for="alasan">Alasan mendaftar</label>
+            <textarea id="alasan" name="alasan" rows="3" placeholder="Ceritakan secara singkat (opsional)"></textarea>
+          </div>
+        </div>
+        <p class="privacy-note">Dengan menekan tombol di bawah, data akan dikirim melalui URL menggunakan metode GET sebagai simulasi pembelajaran.</p>
+        <button class="submit-button" type="submit">Kirim formulir <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">© 2026 · Tugas Individu 3 Pemrograman Web</div></footer>
+</body>
+</html>

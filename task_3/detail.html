@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Pendaftar | Tugas Individu 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html"><span class="brand-mark">P</span> Pendaftar<span class="brand-dot">.</span></a>
+      <span class="header-label">Tugas Individu 3 · Pemrograman Web</span>
+    </div>
+  </header>
+
+  <main class="container detail-layout">
+    <div class="detail-topline"><a class="back-link" href="index.html">← Kembali ke formulir</a><span class="status-pill"><span></span> Halaman detail</span></div>
+    <section class="detail-hero">
+      <p class="eyebrow">INFORMASI PENDAFTAR</p>
+      <h1>Detail <span>pendaftar.</span></h1>
+      <p>Halaman ini merupakan rancangan tampilan untuk informasi pendaftar. Sesuai ketentuan tugas, halaman ini tidak membaca atau memproses nilai query string yang dikirim dari formulir.</p>
+    </section>
+
+    <section class="detail-card">
+      <div class="card-heading"><div><p class="eyebrow">RINGKASAN</p><h2>Data yang direncanakan</h2></div><span class="info-icon">i</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Informasi</th><th>Parameter URL</th><th>Keterangan</th></tr></thead>
+          <tbody>
+            <tr><td>Nama lengkap</td><td><code>nama</code></td><td>Nama pendaftar</td></tr>
+            <tr><td>NIM</td><td><code>nim</code></td><td>Nomor induk mahasiswa</td></tr>
+            <tr><td>Email</td><td><code>email</code></td><td>Alamat email pendaftar</td></tr>
+            <tr><td>Program studi</td><td><code>prodi</code></td><td>Program studi pilihan</td></tr>
+            <tr><td>Jenis kelamin</td><td><code>jenis_kelamin</code></td><td>Pilihan jenis kelamin</td></tr>
+            <tr><td>Alasan mendaftar</td><td><code>alasan</code></td><td>Alasan (opsional)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="query-section">
+        <h3>Contoh desain query string</h3>
+        <p>Setelah formulir dikirim, browser akan membentuk URL dengan parameter GET. Contoh berikut hanya ilustrasi, bukan data yang diproses halaman ini.</p>
+        <div class="query-code">detail.html?nama=Andi+Saputra&amp;nim=123456789&amp;email=andi%40email.com&amp;prodi=Teknik+Informatika&amp;jenis_kelamin=Laki-laki&amp;alasan=Ingin+belajar</div>
+      </div>
+      <div class="notice"><span class="notice-icon">✓</span><p><strong>Catatan tugas</strong><br>Form pada halaman pendaftaran menggunakan <code>method="GET"</code>. Halaman detail hanya menampilkan desain tabel dan contoh query string, tanpa menangkap data.</p></div>
+      <a class="secondary-button" href="index.html">Kembali ke halaman pendaftaran</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">© 2026 · Tugas Individu 3 Pemrograman Web</div></footer>
+</body>
+</html>
