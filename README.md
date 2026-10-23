@@ -16,4 +16,37 @@ Repository ini berisi kumpulan folder tugas praktikum setiap pertemuan pada mata
 
 Setiap folder pertemuan berisi kode program, dokumentasi, serta hasil implementasi aplikasi sesuai dengan materi yang dipelajari.
 
-## Struktur Repository
+## Struktur Repository 
+(di update setiap ada commit push, kalo belum berarti lupa)
+
+```text
+pemrograman_web_itera_124140115/
+├── Reza Lesmana Julgi_124140115_pertemuan1/
+│   ├── sceenshot
+│   ├── README.md
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── Reza Lesmana Julgi_124140115_pertemuan2/
+│   ├── screenshot
+│   ├── 124140115_Laporan_Praktikum 3.pdf
+│   ├── README.md
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── Reza Lesmana Julgi_124140115_pertemuan3/
+│   ├── dokumentasi
+│   ├── src
+│   ├── .gitignore
+│   ├── README.md
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
+├── task_3
+│   ├── README.md
+│   ├── detail.html
+│   ├── index.html
+│   └── style.css
+└── README.md
+```
