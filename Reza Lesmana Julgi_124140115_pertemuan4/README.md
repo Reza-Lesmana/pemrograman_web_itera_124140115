@@ -98,15 +98,15 @@ Pastikan file `math_operations.py` dan `main.py` berada dalam folder yang sama.
 
 ### 1. Hasil Program Penghitung BMI
 
-![Hasil BMI](/dokumentasi/screenshots1.png)
+![Hasil BMI](Reza%20Lesmana%20Julgi_124140115_pertemuan4//dokumentasi/screenshots1.png)
 
 ### 2. Hasil Program Pengelolaan Data Nilai Mahasiswa
 
-![Hasil Pengelolaan Data](/dokumentasi/screenshots2.png)
+![Hasil Pengelolaan Data](Reza%20Lesmana%20Julgi_124140115_pertemuan4/dokumentasi/screenshots2.png)
 
 ### 3. Hasil Program Modul Matematika Python
 
-![Hasil Program Modul](/dokumentasi/screenshots3.png)
+![Hasil Program Modul](Reza%20Lesmana%20Julgi_124140115_pertemuan4/dokumentasi/screenshots3.png)
 
 
 
