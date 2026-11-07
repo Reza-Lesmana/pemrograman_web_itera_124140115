@@ -98,15 +98,15 @@ Pastikan file `math_operations.py` dan `main.py` berada dalam folder yang sama.
 
 ### 1. Hasil Program Penghitung BMI
 
-![Hasil BMI](dokumentasi/screenshot1.png)
+![Hasil BMI](dokumentasi/Screenshot1.png)
 
 ### 2. Hasil Program Pengelolaan Data Nilai Mahasiswa
 
-![Hasil Pengelolaan Data](dokumentasi/screenshot2.png)
+![Hasil Pengelolaan Data](dokumentasi/Screenshot2.png)
 
 ### 3. Hasil Program Modul Matematika Python
 
-![Hasil Program Modul](dokumentasi/screenshot3.png)
+![Hasil Program Modul](dokumentasi/Screenshot3.png)
 
 
 
