@@ -68,7 +68,7 @@ Menerapkan polymorphism melalui beberapa metode pembayaran serta operator overlo
 
 **Dokumentasi:**
 
-![Latihan 5](../dokumentasi/latihan5.png)
+![Latihan 5](/dokumentasi/latihan5.png)
 
 ## 7. Abstract Class dan Interface
 
